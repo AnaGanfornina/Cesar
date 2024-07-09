@@ -57,8 +57,3 @@ class Cifrador:
     def descifrar(self, mensaje):
         return encrypt(mensaje, -self.d)
 
-
-c3 = crearCifrador(3)
-d3 = crearCifrador(-3)
-
-print(c3("lolailo"))
